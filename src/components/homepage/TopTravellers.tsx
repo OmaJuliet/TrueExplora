@@ -48,7 +48,7 @@ const TopTravellers = () => {
                 src={travel.thumbnail}
                 width={24}
                 height={24}
-                className="cursor-pointer w-auto h-60 object-cover object-center absolute bottom-4 border-2 border-gray-500 left-1/2 transform -translate-x-1/2 bg-white rounded-full w-12 h-12"
+                className="cursor-pointer  w-12 h-12 object-cover object-center absolute bottom-4 border-2 border-gray-500 left-1/2 transform -translate-x-1/2 bg-white rounded-full"
                 alt={travel.alt}
               />
             </figure>
