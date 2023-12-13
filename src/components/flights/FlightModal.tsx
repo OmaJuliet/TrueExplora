@@ -20,7 +20,7 @@ interface FlightModalProps {
 const FlightModal: React.FC<FlightModalProps> = ({ flight, isOpen, onRequestClose }) => {
 
   return (
-    <Modal isOpen={isOpen} onRequestClose={onRequestClose} className="modal bg-gray-100 ">
+    <Modal isOpen={isOpen} onRequestClose={onRequestClose} className="modal bg-gray-100 overflow-hidden">
       <section className="modal-content">
         <figure className="flex justify-end">
           <button
@@ -30,7 +30,7 @@ const FlightModal: React.FC<FlightModalProps> = ({ flight, isOpen, onRequestClos
             <IoCloseOutline className="h-6 w-6 text-black" /> 
           </button>
         </figure>
-        <h2 className="text-2xl font-bold text-center">
+        <h2 className="text-2xl font-semibold text-center">
           {flight.origin} to {flight.destination}
         </h2>
         <PassengerForm closeModal={onRequestClose} />

@@ -26,7 +26,7 @@ const PassengerForm: React.FC<PassengerFormProps> = ({ closeModal }) => {
       <section className="container px-5 py-4 mx-auto">
         <section className="lg:w-2/3 mx-auto">
           <article className="flex flex-col w-full mb-3">
-            <h1 className="sm:text-3xl text-2xl font-medium mb-2 text-indigo-700">Passenger Details</h1>
+            <h1 className="sm:text-3xl text-xxl mb-2 text-indigo-700">Passenger Details</h1>
           </article>
           <form className="flex flex-col -m-2 bg-white px-4 py-6 rounded-lg" onSubmit={handleSubmit}>
             <section className="flex flex-row items-center mb-2">

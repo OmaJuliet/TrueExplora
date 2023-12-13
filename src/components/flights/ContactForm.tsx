@@ -26,7 +26,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ closeModal }) => {
       <section className="container px-5 pt-4 pb-2 mx-auto">
         <section className="lg:w-2/3 mx-auto">
           <article className="flex flex-col w-full mb-1">
-            <h1 className="sm:text-3xl text-2xl font-medium mb-2 text-indigo-700">Contact Information</h1>
+            <h1 className="sm:text-3xl text-xl mb-2 text-indigo-700">Contact Information</h1>
           </article>
 
           <form className="flex flex-col -m-2 bg-white px-4 py-6 rounded-lg" onSubmit={handleSubmit}>
